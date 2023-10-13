@@ -1,0 +1,135 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.main-bg-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 80px;
+}
+
+.main-card-container {
+  background-color: #ffffff;
+  height: 550px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-height: 765px) {
+  .main-card-container {
+    height: 780px;
+  }
+}
+
+.main-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+
+@media screen and (min-height: 765px) {
+  .main-heading {
+    font-size: 27px;
+  }
+}
+
+.digit-yellow {
+  color: #ffd569;
+}
+
+.image-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-height: 765px) {
+  .image-card-container {
+    flex-direction: column;
+  }
+}
+
+.fruit-image1 {
+  height: 210px;
+  margin: 20px;
+  width: 210px;
+}
+
+@media screen and (min-height: 765px) {
+  .fruit-image1 {
+    margin-bottom: 80px;
+  }
+}
+
+.fruit-image2 {
+  height: 210px;
+  margin: 20px;
+  width: 210px;
+}
+
+.button-card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-height: 765px) {
+  .button-card-container {
+    flex-direction: column;
+  }
+}
+
+.fruit-button1 {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 80px;
+  height: 40px;
+  width: 90px;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-height: 765px) {
+  .fruit-button1 {
+    margin-top: -300px;
+    margin-left: 160px;
+  }
+}
+
+.fruit-button2 {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 160px;
+  height: 40px;
+  width: 90px;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-height: 765px) {
+  .fruit-button2 {
+    margin-top: 270px;
+    margin-right: 160px;
+  }
+}
